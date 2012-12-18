@@ -10,13 +10,13 @@ $ npm install chuk-cb
 
 ## Usage
 
-After installing cb add this code to your _Chukfile_
+After installing cb add this code to your `Chukfile`
 
 ```js
 scope.cb = require('chuk-cb')(scope);
 ```
 
-Your Chukfile may now look like this:
+Your `Chukfile` may now look like this:
 
 ```js
 module.exports = function(scope) {
@@ -25,7 +25,7 @@ module.exports = function(scope) {
 };
 ```
 
-If you now run `Chuk` and you have a call which requires a callback function
+If you now run `chuk` and you have a call which requires a callback function
 which arguments you want to use if called, simply pass `cb` to that call.
 So instead of
 
