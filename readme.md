@@ -3,7 +3,7 @@
 
 # chuk-cb
 
-[Chuk](https://github.com/StephanHoyer/chuk) plugin which simplifys writing callbacks in REPL session.
+[Chuk](./chuk) plugin which simplifys writing callbacks in REPL session.
 
 ## Installation
 
