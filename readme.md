@@ -5,7 +5,7 @@ Chuk plugin which simplifys writing callbacks in REPL session.
 ## Installation
 
 ```bash
-$ npm install chuk-cb -g
+$ npm install chuk-cb
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ $ npm install chuk-cb -g
 After installing cb add this code to your Chukfile
 
 ```js
-scope.cb = require('./lib/cb')(scope);
+scope.cb = require('chuk-cb')(scope);
 ```
 
 Your Chukfile may now look like this:
@@ -32,7 +32,10 @@ Instead of
 ```
 chuk > var foo
 chuk > User.findOne({name: 'foo'}, function(err, user) { foo = user; })
+chuk > user
+{ name: 'foo', haircolor: 'bar' }
 ```
+
 simply write
 
 ```
@@ -44,4 +47,4 @@ chuk > _1
 { name: 'foo', haircolor: 'bar' }
 ```
 
-`cb` adds the parameters of of it to the global scope.
+As you can see `cb` adds the parameters of it to the global scope.
