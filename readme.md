@@ -1,6 +1,6 @@
 # chuk-cb
 
-Chuk plugin which simplifys writing callbacks in REPL session.
+[Chuk](https://github.com/StephanHoyer/chuk) plugin which simplifys writing callbacks in REPL session.
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ npm install chuk-cb
 
 ## Usage
 
-After installing cb add this code to your Chukfile
+After installing cb add this code to your _Chukfile_
 
 ```js
 scope.cb = require('chuk-cb')(scope);
@@ -25,9 +25,9 @@ module.exports = function(scope) {
 };
 ```
 
-If you now run Chuk and you have a call which requires a callback function
-which arguments you want to use if called, simply pass `cb`to that call.
-Instead of
+If you now run `Chuk` and you have a call which requires a callback function
+which arguments you want to use if called, simply pass `cb` to that call.
+So instead of
 
 ```
 chuk > var foo
