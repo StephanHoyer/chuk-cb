@@ -1,7 +1,7 @@
  [![Build
  Status](https://travis-ci.org/StephanHoyer/chuk-cb.png?branch=master)](https://travis-ci.org/StephanHoyer/chuk-cb)
 
- # chuk-cb
+# chuk-cb
 
 [Chuk](https://github.com/StephanHoyer/chuk) plugin which simplifys writing callbacks in REPL session.
 
