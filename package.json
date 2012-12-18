@@ -1,6 +1,6 @@
 {
-  "name": "chuk",
-  "version": "0.0.2",
+  "name": "chuk-cb",
+  "version": "0.0.1",
   "description": "Chuk plugin which simplifys writing callbacks in REPL session.",
   "main": "index.js",
   "scripts": {
